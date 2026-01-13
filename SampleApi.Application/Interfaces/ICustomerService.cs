@@ -6,5 +6,6 @@ namespace SampleApi.Application.Interfaces
 	{
 		Customer GetById(int id);
 		List<Customer> GetAll();
+		void AddCustomer(Customer customer);
 	}
 }
