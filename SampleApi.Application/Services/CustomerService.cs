@@ -42,5 +42,17 @@ namespace SampleApi.Application.Services
 
 			Console.WriteLine(newCustomer);
 		}
+
+		public void RemoveCustomer(int id)
+		{
+			if (id == 0)
+			{
+				// Magic number + Exception handling kötü
+				throw new Exception("Invalid customer id");
+			}
+			Console.WriteLine($"Customer with id {id} removed.");
+		}
+
+
 	}
 }
