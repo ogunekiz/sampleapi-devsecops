@@ -30,5 +30,17 @@ namespace SampleApi.Application.Services
 						new Customer { Id = 1, Name = "Ali", Email = "ali@test.com" }
 				};
 		}
+
+		public void AddCustomer(Customer customer)
+		{
+			Customer newCustomer = new Customer
+			{
+				Id = customer.Id,
+				Name = customer.Name,
+				Email = customer.Email
+			};
+
+			Console.WriteLine(newCustomer);
+		}
 	}
 }
