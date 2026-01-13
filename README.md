@@ -1,4 +1,4 @@
-# SampleApi DevOps Project
+# SampleApi DevSecOps Project
 
 Real-life .NET 8 Web API project with:
 - CI/CD (Jenkins)
